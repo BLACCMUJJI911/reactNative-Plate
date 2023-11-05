@@ -1,17 +1,17 @@
 import { StyleSheet } from "react-native";
-import { Text } from "react-native-paper";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+import Stack from "./components/common/StackNavigation/stack";
+
 
 export default function App(){
   return(
     <>
-  <SafeAreaProvider style={styles.container}>
+  {/* <SafeAreaProvider style={styles.container}> */}
 
-    <Text onPress={e => console.log("Text Pressed")} style={{color:"white"}}>
-      App Test
-    </Text>
+{/* <Drawer/> */}
+<Stack/>
 
-  </SafeAreaProvider>
+
+  {/* </SafeAreaProvider> */}
 
 
 

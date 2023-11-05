@@ -20,7 +20,9 @@ export default function Search() {
     return (
         <>
 
-
+<View>
+    <Text style={{color:"black"}}>Search</Text>
+</View>
 
         </>
     )
